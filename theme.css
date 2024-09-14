@@ -29,6 +29,11 @@
 	font-display: swap;
 }
 
+/* WINDOW SPACING */
+body {
+	--page-width: 50px;
+}
+
 /* Color Variables */
 body {
 	--base-hue: 0;
@@ -74,6 +79,9 @@ body {
 /*Nav item spacing*/
 .nav-file, .nav-folder-title {
 	margin-bottom: 5px;
+}
+.nav-file:hover, .nav-folder:hover {
+	/* outline: 1px solid var(--primary-color-dark-mode); */
 }
 
 
@@ -168,6 +176,10 @@ body {
 		var(--accent-saturation),
 		calc(var(--accent-lightness-dark-mode) - 10%)
 	);
+}
+
+.theme-dark .clickable-icon:hover, .workspace-tab-header:hover {
+	color: var(--primary-color-dark-mode);
 }
 
 /* Misc */
