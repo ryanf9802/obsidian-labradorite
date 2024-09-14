@@ -273,6 +273,9 @@ body {
 	--header-height: 40px;
 }
 
+/* ------ TABLES ------ */
+/* TODO: Implement table styles */
+
 .markdown-source-view {
 	font-family: var(--font-text-theme);
 }
