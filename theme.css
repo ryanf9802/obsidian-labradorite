@@ -71,7 +71,7 @@ body {
 .nav-folder-title {
 	border-left: 1px solid var(--primary-color-dark-mode);
 }
-
+/*Nav item spacing*/
 .nav-file, .nav-folder-title {
 	margin-bottom: 5px;
 }
