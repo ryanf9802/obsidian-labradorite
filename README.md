@@ -1,3 +1,3 @@
-# Personal Theme
+# Labradorite
 ---
 
