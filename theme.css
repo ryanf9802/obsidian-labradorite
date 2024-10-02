@@ -199,6 +199,14 @@ body {
 	code {
 		--code-normal: rgb(0, 0, 0) !important;
 	}
+    
+    h2, h3, h4, h5, h6 {
+        page-break-after: avoid;
+    }
+
+	blockquote code {
+		color: black !important;
+	}
 
 	.internal-link {
 		--link-color: black !important;
