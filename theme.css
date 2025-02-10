@@ -80,9 +80,6 @@ body {
 .nav-file, .nav-folder-title {
 	margin-bottom: 5px;
 }
-.nav-file:hover, .nav-folder:hover {
-	/* outline: 1px solid var(--primary-color-dark-mode); */
-}
 
 
 /* --------	DARK MODE -------- */
@@ -506,4 +503,21 @@ div.todo-item-view-toolbar-item svg {
 /* make focused toolbar item follow the theme accent */
 div.todo-item-view-toolbar-item.active svg {
 	fill: var(--text-accent);
+}
+
+/* Canvas */
+
+.canvas-node-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 20px;
+}
+
+/* Mermaid */
+
+.mermaid svg {
+	max-width: 100%;
+	height: auto;
 }
